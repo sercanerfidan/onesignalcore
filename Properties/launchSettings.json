@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "OneSignalCore": {
+      "commandName": "Project"
+    },
+    "Docker": {
+      "commandName": "Docker"
+    }
+  }
+}
