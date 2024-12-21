@@ -22,9 +22,9 @@ namespace OneSignal
             try {
                 tasks = new List<Task>();
 
-                List<string> coinList = Enum.GetNames(typeof(Coins)).ToList();
+                List<string> coinList = Enum.GetNames(typeof(Coins)).Where(x => x.Contains("BNB") || x.Contains("ADA") || x.Contains("XMR")).ToList();
 
-                var takeCount = coinList.Count / 5;
+                var takeCount = coinList.Count / 3;
 
                 List<IEnumerable<string>> listOfPartition = new List<IEnumerable<string>>();
                 for (int i = 0; i < coinList.Count(); i += takeCount)

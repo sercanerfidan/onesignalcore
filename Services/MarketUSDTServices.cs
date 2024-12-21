@@ -75,7 +75,7 @@ namespace OneSignal.Services
 
                             //int rounded = Convert.ToInt32(Math.Ceiling(total));
                             string log = "ask-> " + rounded + " USDT, price: " + price + " ,coin:" + item + ", count: " + count;
-                            if (rounded >= 600000)
+                            if (rounded >= 500000)
                             {
                                 Log.Information(log);
                                 //string val = Encoding.UTF8.GetString(myByteArray);
@@ -107,7 +107,7 @@ namespace OneSignal.Services
                             string log = "ask-> " + rounded + " USDT, price: " + price + " ,coin:" + item + ", count: " + count2;
 
 
-                            if (rounded >= 600000)
+                            if (rounded >= 500000)
                             {
                                 Log.Information(log);
                                 string messagge = "🟢 " +  item + " Buy wall " + rounded + " USDT at " + b.Next[0].ToString();

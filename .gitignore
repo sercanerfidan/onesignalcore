@@ -1,0 +1,57 @@
+# Build Folders
+bin/
+obj/
+obj/Debug
+
+# Visual Studio
+.vs/
+
+# User-specific files
+*.rsuser
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Logs
+*.log
+
+# Compiled DLLs
+*.dll
+*.pdb
+*.exe
+
+# Packages
+*.nuget/
+*.nupkg
+
+# Visual Studio Code
+.vscode/
+
+# Rider
+.idea/
+*.sln.iml
+
+# Coverage
+*.coverage
+*.coveragexml
+*.testsettings
+
+# Resharper
+_ReSharper*/
+*.DotSettings.user
+
+# OS Generated Files
+.DS_Store
+Thumbs.db
+
+# Secrets
+secrets.json
+
+# Docker
+**/[Dd]ockerfile
+**/docker-compose*
+
+# Others
+*.lock.json
+*.bak
