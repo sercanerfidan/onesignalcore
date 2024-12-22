@@ -18,7 +18,9 @@ namespace OneSignalCore
             var serviceCollection = new ServiceCollection();
             ConfigureServices(serviceCollection);
 
-            Console.ReadKey();
+            Console.WriteLine("Lütfen bir tuşa basın:");
+            string input = Console.ReadLine();
+            Console.WriteLine($"Girdiğiniz: {input}");
         }
 
         private static IServiceCollection ConfigureServices(IServiceCollection services)
